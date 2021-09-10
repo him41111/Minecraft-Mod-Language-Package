@@ -161,7 +161,7 @@
   "state.rs_ctr2.transformer": "§a0：§c%sd §7RF/t 流速\n§91：§c%sd §7RF/t 限制\n§a2：§7出 §e%ss/%sd RF\n§a3: §7入 §e%ss/%ss RF",
   "state.rs_ctr2.fluid_mover": "§90：§c0x%s08X§7 时钟\n§91：§c%sd§7 mB 限制\n§a2: §c%sd§7 mB 已移动\n§a3：§e%sd RF§7 可用能量\n§a4: §b可抽取流体：%ss\n§a5：§b可插入流体：%ss",
   "state.rs_ctr2.item_mover": "§90: §c0x%s08X§7 时钟\n§91：§c%sd§7 堆叠限制\n§a2: §c%sd§7 个物品已移动\n§a3：§e%sd RF§7 可用能量\n§a4: §f可抽取物品：%ss\n§a5: §f可插入物品：%ss",
-  "state.rs_ctr2.division": "§a0：§c%d§7 A / B\n§a1：§c%d§7 余数\n§92：§c%d§7 A\n§93：§c%d§7 B",
+  "state.rs_ctr2.division": "§a0：§c%sd§7 A / B\n§a1：§c%sd§7 余数\n§92：§c%sd§7 A\n§93：§c%sd§7 B",
   "state.rs_ctr2.mover": "",
   "state.rs_ctr2.no_connection": "与门元件互动来进行探测！",
   "state.rs_ctr2.in": "§a0：§c0x%s08X %s1$d",
@@ -317,5 +317,7 @@
   "state.rs_ctr2.energy_counter": "§a0：现存 §c%ss§7 RF\n§a1：§e是否已连接：%ss\n§92: §c0x%s08X§7 时钟信号",
   "item.rs_ctr2.const_inc.tip": "§A⏵§7 = §9⏴§7 + GUI 中设置的数字（与方块互动打开设置界面）。",
   "item.rs_ctr2.const_inc": "递增门",
-  "state.rs_ctr2.const_inc": "§7#：§c%sd§7 步长\n§90：§c%sd§7 输入\n§a1：§c%sd§7 输出"
+  "state.rs_ctr2.const_inc": "§7#：§c%sd§7 步长\n§90：§c%sd§7 输入\n§a1：§c%sd§7 输出",
+  "state.rs_ctr2.dropper": "§a0：§5%ss\n§91：§f%sd 已投掷物品数",
+  "state.rs_ctr2.block_io": "§90：§5%ss"
 }
