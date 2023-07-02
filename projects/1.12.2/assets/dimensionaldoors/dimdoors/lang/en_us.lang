@@ -105,8 +105,6 @@ item.oak_dimensional_door.info=Place on the block under a rift \nto create a por
 
 item.record.creepy.desc=Creepy - The sound of Limbo
 
-fluid.eternal_fabric=Eternal Fabric
-
 entity.dimdoors.monolith.name=Monolith
 
 commands.dimteleport.usage=/dimteleport <dimension> <x> <y> <z> [yaw] [pitch]
@@ -143,12 +141,23 @@ dimdoors.general.closeDoorBehind=Close Door Behind
 dimdoors.general.closeDoorBehind.tooltip=When true, Dimensional Doors will automatically close when the player enters their portal.
 dimdoors.general.depthSpreadFactor=Depth Spread Factor
 dimdoors.general.depthSpreadFactor.tooltip=The scale of the dispersion when escaping from a pocket or limbo, in blocks/depth. It is important to remember that by default, limbo is treated as depth 50.
-dimdoors.general.riftCloseSpeed=Rift Close Speed
-dimdoors.general.riftCloseSpeed.tooltip=The speed at which rifts close when using the rift remover, in units of rift size per tick.
 dimdoors.general.teleportOffset=Teleport Offset
 dimdoors.general.teleportOffset.tooltip=Distance in blocks to teleport the player in front of the dimensional door.
-dimdoors.general.riftBoundingBoxInCreative=Rift Bounding Box in Creative
-dimdoors.general.riftBoundingBoxInCreative.tooltip=When true, shows the bounding boxes of floating rifts when the player is in creative.
+
+
+dimdoors.rifts.riftCloseSpeed=Rift Close Speed
+dimdoors.rifts.riftCloseSpeed.tooltip=The speed at which rifts close when using the rift remover, in units of rift size per tick.
+dimdoors.rifts.riftBoundingBoxInCreative=Rift Bounding Box in Creative
+dimdoors.rifts.riftBoundingBoxInCreative.tooltip=When true, shows the bounding boxes of floating rifts when the player is in creative.
+dimdoors.rifts.enableRiftDecay=Enable Rift Decay
+dimdoors.rifts.enableRiftDecay.tooltip=When true, floating rifts will eat nearby placed blocks, dropping world string
+dimdoors.rifts.blockRiftDecayBlackList=Block Decay Blacklist
+dimdoors.rifts.blockRiftDecayBlackList.tooltip=A list of blocks that will be blacklisted from rift decay
+dimdoors.rifts.maxRiftSize=Maximum Rift Size
+dimdoors.rifts.maxRiftSize.tooltip=The maximum size a wild rift can achieve. Set to -1 to ignore. Note that rifts grow logarithmically
+dimdoors.rifts.enableWildRifts=Enable
+dimdoors.rifts.enableWildRifts.tooltip=Determines whether or not wild rifts are enabled
+
 
 dimdoors.pockets=Pocket Dimension Settings
 dimdoors.pockets.tooltip=Settings that determine the spacing and maximum size of pockets in the pocket world
@@ -164,9 +173,6 @@ dimdoors.pockets.loadAllSchematics=Load All Schematics
 dimdoors.pockets.loadAllSchematics.tooltip= When true, all available Pocket Schematics will be loaded on game-start, even if the gridSize and pocketSize configuration fields would exclude these schematics from being used in 'naturally generated' pockets. The /pocket command can be used to force-generate these pockets for dungeon building or testing purposes.
 dimdoors.pockets.cachedSchematics=Maximum number of cached schematics
 dimdoors.pockets.cachedSchematics.tooltip= The maximum number of schematics cached as NBT instead of bytes. If a schematic is cached, it will be faster to place, but takes up more RAM. Schematics that are used more are more likely to be cached. The cache resets on restart.
-dimdoors.pockets.dyeAlreadyAbsorbed=The pocket is already that color, so the rift didn't absorb the dye.
-dimdoors.pocket.pocketHasBeenDyed=The pocket has been dyed %s.
-dimdoors.pocket.remainingNeededDyes=The pocket has %s/%s of the dyes needed to be colored %s.
 
 dimdoors.world=World Generation Settings
 dimdoors.world.tooltip=Settings that determine where dimensional gateways and rift clusters can be generated and at what frequency
@@ -178,6 +184,8 @@ dimdoors.world.clusterDimBlacklist=Cluster Dimension Blacklist
 dimdoors.world.clusterDimBlacklist.tooltip=Dimension Blacklist for the generation of Rift Scar clusters. Add a dimension ID here to prevent generation in certain dimensions.
 dimdoors.world.gatewayDimBlacklist=Gateway Dimension Blacklist
 dimdoors.world.gatewayDimBlacklist.tooltip=Dimension Blacklist for the generation of Dimensional Portal gateways. Add a dimension ID here to prevent generation in certain dimensions.
+dimdoors.world.enableDecayDrops=Enable Rift Decay Drops
+dimdoors.world.enableDecayDrops.tooltip=When true, blocks destroyed by rift decay will drop world thread.
 
 dimdoors.dungeons=Dungeon Settings
 dimdoors.dungeons.tooltip=Settings that affect the generation of pocket dungeons
@@ -197,6 +205,10 @@ dimdoors.limbo.universalLimbo=Universal Limbo
 dimdoors.limbo.universalLimbo.tooltip=When true, players are also teleported to Limbo when they die in any non-Pocket Dimension (except Limbo itself). Otherwise, players only go to Limbo if they die in a Pocket Dimension.
 dimdoors.limbo.hardcoreLimbo=Hardcore Limbo
 dimdoors.limbo.hardcoreLimbo.tooltip=When true, a player dying in Limbo will respawn in Limbo, making Eternal Fluid or Golden Dimensional Doors the only way to escape Limbo.
+dimdoors.limbo.enableLimboDecay=Enable Decay
+dimdoors.limbo.enableLimboDecay.tooltip=When false, decay spreading from unravelled fabric in Limbo will be disabled
+dimdoors.limbo.blockLimboDecayBlackList=Block Decay Blacklist
+dimdoors.limbo.blockLimboDecayBlackList.tooltip=A list of blocks that will be blacklisted from Limbo decay
 
 dimdoors.graphics=Graphics Settings
 dimdoors.graphics.tooltip=Settings that control the appearance of dimdoors, such as the rift animation.

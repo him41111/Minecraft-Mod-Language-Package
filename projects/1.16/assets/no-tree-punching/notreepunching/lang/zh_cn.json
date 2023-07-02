@@ -1,7 +1,6 @@
 {
-  "__comment__": "This file was automatically created by mcresources",
   "itemGroup.notreepunching.items": "无树可撸",
-  "notreepunching.tooltip.small_vessel_more": "还有 %d 个……",
+  "notreepunching.tooltip.small_vessel_more": "还有%d个……",
   "notreepunching.tile_entity.large_vessel": "大罐",
   "block.notreepunching.granite_cobblestone": "花岗岩圆石",
   "block.notreepunching.granite_cobblestone_stairs": "花岗岩圆石楼梯",
@@ -74,7 +73,6 @@
   "notreepunching.advancements.story.flint_pickaxe.title": "我的第一把镐",
   "notreepunching.advancements.story.flint_pickaxe.description": "用燧石、植物纤维和木棍制作你的第一把镐子！",
   "notreepunching.advancements.story.use_clay_tool.title": "你挺陶器的",
-  "notreepunching.advancements.story.use_clay_tool.zhcncomment": "叶圣陶",
   "notreepunching.advancements.story.use_clay_tool.description": "用黏土抹子加工黏土块，可制作各种各样的陶器。",
   "notreepunching.advancements.story.fire_pottery.title": "陶器",
   "notreepunching.advancements.story.fire_pottery.description": "将陶器烧制成有用的装置！",

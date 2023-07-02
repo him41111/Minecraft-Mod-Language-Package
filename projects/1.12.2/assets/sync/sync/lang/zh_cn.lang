@@ -15,13 +15,13 @@ sync.config.cat.gameplay.comment=这些选项影响使用这个模块时的游�
 sync.config.cat.gameplay.name=游戏内容
 sync.config.prop.allowChunkLoading.comment=依需求添加，模组可以对区块加载壳体。未测试，不支持。\n可造成严重的世界崩溃。\n自负风险禁用。
 sync.config.prop.allowChunkLoading.name=允许区块加载
-sync.config.prop.allowCrossDimensional.comment=允许跨维度壳体同步？\n警告：目前出入末路之地有个问题，你需要在同步后重新登入，因为区块尚未加载。\n如允许末路之地，请自行承担风险。\n0 = 不\n1 = 是，但不包括末路之地\n2 = 是，包括末路之地
+sync.config.prop.allowCrossDimensional.comment=允许跨维度壳体同步？\n警告：目前出入末地有个问题，你需要在同步后重新登入，因为区块尚未加载。\n如允许末地，请自行承担风险。\n0 = 不\n1 = 是，但不包括末地\n2 = 是，包括末地
 sync.config.prop.allowCrossDimensional.name=允许跨世界
 sync.config.prop.crossDimensionalSyncingOnDeath.comment=在玩家死亡和重新同步时允许跨维度同步？
 sync.config.prop.crossDimensionalSyncingOnDeath.name=死亡时跨维度同步
 sync.config.prop.damageGivenOnShellConstruction.comment=在新壳体建立时对玩家给予半心伤害数值。
 sync.config.prop.damageGivenOnShellConstruction.name=在壳体建立时给予的伤害值
-sync.config.prop.hardcoreMode.comment=允许极限模式配方?\n0 = 不\n1 = 是\n2 = 是，但仅限极限模式。
+sync.config.prop.hardcoreMode.comment=允许极限模式配方？\n0 = 不\n1 = 是\n2 = 是，但仅限极限模式。
 sync.config.prop.hardcoreMode.name=极限模式
 sync.config.prop.overrideDeathIfThereAreAvailableShells.comment=如玩家有其他壳体，允许覆盖玩家的死亡？\n0 = 不\n1 = 对，但只对收藏单位\n2 = 对，对收藏和建筑单位
 sync.config.prop.overrideDeathIfThereAreAvailableShells.name=在有壳体的情况下覆盖死亡
@@ -37,7 +37,7 @@ sync.config.prop.shellStoragePowerRequirement.comment=以piggawatt为单位，�
 sync.config.prop.shellStoragePowerRequirement.name=壳体存储能源需求
 sync.config.prop.showAllShellInfoInGui.comment=在GUI里显示所有壳体的信息？\n0 = 不\n1 = 只有名字就好了\n2 = 对，全部都给我显示！
 sync.config.prop.showAllShellInfoInGui.name=在GUI显示所有壳体信息
-sync.isMorphed=无法使用! 你现在正处于变形状态.
+sync.isMorphed=无法使用！你现在正处于变形状态.
 sync.waila.active=激活
 sync.waila.entity=实体名
 sync.waila.owner=壳体拥有者

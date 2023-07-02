@@ -53,6 +53,7 @@
   "subtitle.cgm.reload": "Reloading",
   "subtitle.cgm.grenade.pin": "Grenade Pin",
   "subtitle.cgm.attach": "Attachment Attach",
+  "subtitle.cgm.cock": "Cocking Weapon",
   "cgm.option_list.no_items": "No Items",
   "cgm.options.adsSensitivity": "ADS Sensitivity",
   "cgm.options.adsSensitivity.format": "ADS Sensitivity: %s",
@@ -111,8 +112,8 @@
   "perk.cgm.silenced.positive": "Silenced",
   "perk.cgm.sound_radius.positive": "Reduced Fire Sound Radius",
   "perk.cgm.sound_radius.negative": "Increased Fire Sound Radius",
-  "perk.cgm.additional_damage.positive": "Additional Damage Â§r(Â§l+%s â™¥Â§r)",
-  "perk.cgm.additional_damage.negative": "Negative Damage Â§r(Â§l-%s â™¥Â§r)",
+  "perk.cgm.additional_damage.positive": "Additional Damage §r(§l+%s ♥§r)",
+  "perk.cgm.additional_damage.negative": "Negative Damage §r(§l-%s ♥§r)",
   "perk.cgm.modified_damage.positive": "Increased Weapon Damage",
   "perk.cgm.modified_damage.negative": "Reduced Weapon Damage",
   "perk.cgm.projectile_speed.positive": "Increased Projectile Speed",
@@ -134,5 +135,7 @@
   "cgm.button.aim": "Aim Down Sight",
   "cgm.button.reload": "Reload / Unload",
   "cgm.button.attachments": "Modify Attachments",
-  "cgm.button.steadyAim": "Steady Aim"
+  "cgm.button.steadyAim": "Steady Aim",
+  "cgm.category.workbench.title": "Assembling",
+  "cgm.category.workbench.materials": "Materials"
 }
